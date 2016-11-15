@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="138.0" prefWidth="275.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.AgregarPropinaController">
+   <children>
+      <HBox layoutX="13.0" layoutY="36.0" prefHeight="26.0" prefWidth="262.0">
+         <children>
+            <Label prefHeight="15.0" prefWidth="127.0" text="Propina:" />
+            <TextField fx:id="propina" prefHeight="25.0" prefWidth="126.0" />
+         </children>
+      </HBox>
+      <Button layoutX="70.0" layoutY="91.0" mnemonicParsing="false" onAction="#agregarPropina" text="Agregar propina" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="189.0" prefWidth="281.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.AgregarMeseroController">
+   <children>
+      <TextField fx:id="nombre" layoutX="27.0" layoutY="75.0" prefHeight="25.0" prefWidth="219.0" />
+      <Label layoutX="27.0" layoutY="47.0" text="Nombre de mesero:" />
+      <Button layoutX="81.0" layoutY="119.0" mnemonicParsing="false" onAction="#agregarMesero" text="Agregar mesero" />
+   </children>
+</AnchorPane>
